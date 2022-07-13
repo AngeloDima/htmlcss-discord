@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.Flex{
+    display: flex;
+}
+
+
+
+.Conteiner-principale-header{
+    width: 100vw;
+    height: 66vh;
+    
+    background-image: url(img_discord/jumbo.png);
+    background-size: cover;
+}
+
+/* ----- menu ---- */
+
+.Conteiner-menù{
+    width: 70vw;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+}
+
+.Logo{
+    flex-basis: 230px;
+    align-self: center;
+}
+
+.Menù{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Menù a{
+    color: rgb(255, 255, 255);
+    padding: 0px 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.Bottone{
+    flex-basis: 230px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Bottone input{
+    padding: 10px 20px;
+    align-self: center;
+    border-radius: 25px;
+    border: none;
+}
+/* ----- menu END ---- */
+
+/* -----Conteiner centrale---- */
+
+
+.Conteiner-centrale{
+    width: 75vh;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.Conteiner-centrale h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+.Conteiner-centrale p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.22rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* ----Bottoni centrali--- */
+
+.Bottoni-header-centrale{
+    width: 30vw;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.Bottoni-header-centrale input{
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none;
+
+    font-size: 0.95rem;
+}
+
+.Bottoni-header-centrale input:last-child{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* -----Conteiner centrale END---- */
+
+
+
+/* ----Box---- */
+
+
+.Reverse{
+    flex-direction: row-reverse;
+}
+
+.Conteiner-box{
+    width: 100vw;
+    height: 60vh; 
+    display: flex;
+}
+
+.Conteiner-box .Reverse{
+    background-color: #efefef
+}
+
+
+
+/* ----Container SX e DX---- */
+
+
+
+.SX{
+    flex-grow: 1;  
+    display: flex;
+    justify-content: center;
+}
+
+.SX img{
+    max-width: 55%;
+}
+
+.color-grey{
+    background-color: #efefef
+}
+
+.DX{
+    flex-basis: 600px;
+    text-align: left;
+    display: flex;
+}
+
+
+
+/* ----Container SX e DX  END---- */
+
+.DX-margin-content{
+    width: 55%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/* ---Box info--- */
+
+.DX h1{
+    margin-bottom: 70px;
+    font-size: 2.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+
+.DX p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* ---Box info END--- */
+
+
+
+/* ----Box END---- */
+
+
+
+/* ---------------------BOX FINALE GRANDE--------- */
+.Conteiner-box-grande{
+    width: 100vw;
+    height: 90vh;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----h1 e p ----- */
+.Scritta-container-grande{
+    flex-basis: 9vw;
+    
+    display: flex;
+    margin-top: 3%;
+
+}
+
+.content-scritta-container-grande{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42%;
+    margin: auto;
+    
+}
+
+
+
+.content-scritta-container-grande h1{
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.content-scritta-container-grande p{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+.img-container-grande{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo-container-grande{
+    flex-basis: 2vw;
+
+}
+
+.Bottone-sotto-paragrafo{
+    width: 8vw;
+    height: 12vh;
+
+    margin: auto;
+}
+
+
+.content-h3-container-grande{
+    width: 20vw;
+
+    margin: auto;
+    text-align: center;
+
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Bottone-sotto-paragrafo input{
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: #8ea1e1;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* ---------------------BOX FINALE GRANDE END--------- */
+
+
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #00103d;
+    
+}
+
+
+.Conteiner-elementi-footer{
+    width: 60vw;
+    height: 75%;
+    /* background-color: rgba(255, 0, 0, 0.507); */
+    display: flex;
+    margin: 55px auto;
+    border-bottom: 1px solid #8ea1e1;
+
+    justify-content: space-between;
+}
+
+.Elemento-grande{
+    flex-basis: 350px;
+    /* background-color: aquamarine; */
+    gap: 25px;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.Elemento-grande h1{
+    font-size: 2.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #596bd1;
+    font-weight: 600;
+}
+
+
+
+.elementi-piccoli{
+    flex-basis: 150px;
+    /* background-color: violet; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+
+.elementi-piccoli a{
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.elementi-piccoli a:first-child{
+    color: #8ea1e1;
+    font-weight: 600;
+}
+
+
+.Sotto-border-footer{
+    width: 60vw;
+    
+    margin: -2% auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Sotto-border-footer img{
+    max-width: 10%;
+}
+
+.Sotto-border-footer input{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #8ea1e1;
+    color: white;
+}
